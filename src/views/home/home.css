@@ -1,0 +1,84 @@
+.app-title{
+    text-align: center;
+    color: #e65c00;
+    font-size: 50px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
+.contact-container{
+    background-color: aliceblue;
+    height: 600px;
+    width: 500px;
+    color: black;
+    margin: auto;
+    padding: auto;
+    border-radius: 12px;
+    text-align: center;
+    justify-content: space-around;
+    overflow: scroll;
+}
+.add-contact-container{
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    color: black;
+    margin: auto;
+    margin-top: auto;
+    padding-left: auto;
+    padding-right: auto;
+    border-radius: 12px;
+    text-align: center;
+}
+.app-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-card{
+    width: 400px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background: burlywood;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.btn-add-contact{
+    display: block;
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+::-webkit-scrollbar {
+    width: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    }
